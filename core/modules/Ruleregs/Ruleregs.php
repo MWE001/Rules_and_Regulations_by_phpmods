@@ -10,6 +10,6 @@ class Ruleregs extends CodonModule {
 public function index()
   {				
 	  $this->set('category', RuleregsData::getAllRuleCat());
-	  $this->render('ruleregs.tpl');
+	  $this->render('ruleregs.php');
   }  
 }
